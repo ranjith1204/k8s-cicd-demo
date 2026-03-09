@@ -25,5 +25,3 @@ jobs:
     - name: Push Docker image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/k8s-cicd-demo:latest
 
-    - name: Restart Kubernetes Deployment
-      run: kubectl rollout restart deployment node-app
