@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from Kubernetes CI/CD version 2");
+  res.send("Hello from Kubernetes CI/CD version 3.o");
 });
 
 app.listen(3000, () => {
